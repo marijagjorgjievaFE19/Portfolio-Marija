@@ -12,6 +12,7 @@ function App() {
     <>
       <Navbar />
       <hr />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/education" element={<Education />} />

@@ -1,4 +1,5 @@
 import "./Home.css";
+import img from "../../assets/IMG_20231216_182041.jpg";
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
         <h1>Marija Gjorgjieva</h1>
         <h2>Front-end Developer</h2>
       </div>
-      <img src="/public/assets/IMG_20231216_182041.jpg" alt="Profile-picture" />
+      <img src={img} alt="Profile-picture" />
     </div>
   );
 };

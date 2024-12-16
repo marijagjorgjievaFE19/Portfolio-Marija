@@ -154,6 +154,7 @@ hr {
 
   a {
     font-size: 30px;
+    margin-bottom: 10px;
   }
 
   a.active {
